@@ -87,10 +87,6 @@ class Validator
      */
     private function validateCnpj(string $number): bool
     {
-        if (empty($number)) {
-            return false;
-        }
-
         $cnpj = str_pad($number, 14, 0, STR_PAD_LEFT);
 
         if (strlen($cnpj) !== 14) {
