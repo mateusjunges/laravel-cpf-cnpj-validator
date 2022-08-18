@@ -4,4 +4,4 @@
 .phpunit.result.cache
 .idea/
 composer.lock
-tests/*
+tests/reports
