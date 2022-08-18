@@ -2,6 +2,8 @@
 
 namespace Junges\CpfCnpjValidator;
 
+use Junges\CpfCnpjValidator\Enums\TaxId;
+
 class Validator
 {
     /**
