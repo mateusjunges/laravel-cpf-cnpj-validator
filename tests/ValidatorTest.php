@@ -7,9 +7,9 @@ use Junges\CpfCnpjValidator\Validator;
 class ValidatorTest extends TestCase
 {
     /** @dataProvider cpf */
-    public function test_it_can_validate_a_cpf_number(array $value)
+    public function test_it_can_validate_a_cpf_number($number, $expects)
     {
-        $this->assertEquals($value['expects'], (new Validator)($value['number']));
+        $this->assertEquals($expects, (new Validator)($number));
     }
 
     public function cpf(): array
