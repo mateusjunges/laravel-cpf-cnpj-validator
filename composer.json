@@ -1,0 +1,28 @@
+{
+    "name": "mateusjunges/cpf-cnpj-validator",
+    "description": "A simple class to validate CPF and CNPJ numbers",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Junges\\CpfCnpjValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Junges\\CpfCnpjValidator\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mateusjunges",
+            "email": "mateus@junges.dev"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.6"
+    }
+}
