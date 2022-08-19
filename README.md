@@ -1,6 +1,13 @@
 # CPF & CNPJ Validator
+![art/laravel-kafka.png](art/banner.png)
 
 This package provide a simple API to validate brazilian CPF and CNPJ document numbers.
+
+# Sponsor my work!
+If you think this package helped you in any way, you can sponsor me on GitHub!
+
+[![Sponsor Me](art/sponsor.png)](https://github.com/sponsors/mateusjunges)
+
 
 ### Installation
 You can install this package using composer:
@@ -27,3 +34,12 @@ $v = (new Validator)("91.881.588/0001-95", \Junges\CpfCnpjValidator\Enums\TaxId:
 
 $v = (new Validator)("91.881.588/0001-95", \Junges\CpfCnpjValidator\Enums\TaxId::CPF); // True
 ```
+
+### Testing
+Run `composer test` to test this package.
+
+### Credits
+- [Mateus Junges](https://twitter.com/mateusjungess)
+
+### License
+This package is open-sourced software licensed under the [MIT License](https://opensource.org/licenses/MIT). Please see the [License file](LICENSE) for more information.
