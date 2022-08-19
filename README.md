@@ -13,7 +13,7 @@ If you think this package helped you in any way, you can sponsor me on GitHub!
 You can install this package using composer:
 
 ```bash
-composer require mateusjunges/laravel-cpf-cnpj-validator
+composer require mateusjunges/cpf-cnpj-validator
 ```
 
 ### Usage
