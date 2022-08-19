@@ -1,5 +1,5 @@
 # CPF & CNPJ Validator
-![art/laravel-kafka.png](art/banner.png)
+![art/laravel-kafka.png](art/banner-readme.png)
 
 This package provide a simple API to validate brazilian CPF and CNPJ document numbers.
 
