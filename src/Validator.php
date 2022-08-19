@@ -89,10 +89,6 @@ class Validator
     {
         $cnpj = str_pad($number, 14, 0, STR_PAD_LEFT);
 
-        if (strlen($cnpj) !== 14) {
-            return false;
-        }
-
         $invalid_values = [
             '11111111111111',
             '22222222222222',

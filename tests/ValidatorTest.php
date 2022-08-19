@@ -61,11 +61,6 @@ class ValidatorTest extends TestCase
                 'expects' => false,
                 'type' => null
             ],
-            [
-                'number' => null,
-                'expects' => false,
-                'type' => null
-            ]
         ];
     }
 }
